@@ -1,5 +1,12 @@
 			Revision history for Perl module Mail::Alias.
 
+1.13 26 February 2022
+
+  New maintainer: Jonathan Kamens <jik@kamens.us>
+
+  Fix syntax error under recent versions of Perl, i.e., make the module work
+  again.
+
 1.12 21 October 2000
 	Removed requirement to use Mail::Address which was never actually used
 	delete() - changed matching so blank lines (^\s*$) are skipped in alias checking
