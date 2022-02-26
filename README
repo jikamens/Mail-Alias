@@ -3,7 +3,8 @@ This is the README file for the PERL module Mail::Alias
 for Version 1.12  13 September2000
 
 Mail::Alias is avaiable for download at www.CPAN.org under Mail modules
-or under the CPAN author ID: JIK
+or under the CPAN author ID: JIK. Source code is available at
+https://github.com/jikamens/Mail-Alias.
 
 You require perl 5.001 or later to use this library
 	This is a legacy of the previous version of Mail::Alias that was
