@@ -63,9 +63,9 @@ date no changes have been made to the module except that one fix.
 From Tom Zeltwanger in 2000:
 
 The capabilities provided in this module were developed as part of the
-development of an E-mail Forwarding service (desibed in more detail at www.ename.com).
-The service is  based on SENDMAIL and uses PERL for automatic processing of Alias
-files. This code is being provided to the PERL community in appreciation for the
+development of a now-defunct E-mail Forwarding service.
+The service was based on SENDMAIL and used PERL for automatic processing of Alias
+files. This code has been provided to the PERL community in appreciation for the
 free PERL software and the incredible support network that comes with PERL at no
 charge.
 
