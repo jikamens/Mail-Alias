@@ -22,7 +22,7 @@ Portions of earlier versions of this program were copyrighted by Tom Zeltwanger
 and Graham Barr. The current copyright holder extends full authorship rights to
 both of the previous authors.
 
-Note: There is breif Mail::Alias documentation embedded in the Mail::Alias module,
+Note: There is brief Mail::Alias documentation embedded in the Mail::Alias module,
 which can be accessed by typing "man Mail::Alias" after installation or by typing
 "perldoc Alias.pm" in the directory containing Alias.pm
 
