@@ -12,7 +12,7 @@ my @ppd;
 
 if ($] >= 5.00503) {
   @ppd = (
-    AUTHOR    => 'Tom Zeltwanger <perl@ename.com>',
+    AUTHOR    => 'Jonathan Kamens <jik@kamens.us>',
     ABSTRACT  => 'Module for manipulating E_Mail Alias files'
   );
 }

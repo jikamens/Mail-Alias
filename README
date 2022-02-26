@@ -3,16 +3,24 @@ This is the README file for the PERL module Mail::Alias
 for Version 1.12  13 September2000
 
 Mail::Alias is avaiable for download at www.CPAN.org under Mail modules
-or under the CPAN author ID: ZELT
+or under the CPAN author ID: JIK
 
 You require perl 5.001 or later to use this library
 	This is a legacy of the previous version of Mail::Alias that was
 	included in MailTools. This module may actually work with earlier
 	versions of PERL
 
-All files contained in this installation are Copyright (c) 2000
-Tom Zeltwanger. All rights reserved. This library is free software; you may
+All files contained in this installation are Copyright (c) 2022 Jonathan
+Kamens. All rights reserved. This library is free software; you may
 redistribute it and/or modify it under the same terms as Perl itself.
+
+Copyright (c) 2022 Jonathan Kamens <jik@kamens.us>. All rights reserved. This
+program is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself.
+
+Portions of earlier versions of this program were copyrighted by Tom Zeltwanger
+and Graham Barr. The current copyright holder extends full authorship rights to
+both of the previous authors.
 
 Note: There is breif Mail::Alias documentation embedded in the Mail::Alias module,
 which can be accessed by typing "man Mail::Alias" after installation or by typing
@@ -20,7 +28,7 @@ which can be accessed by typing "man Mail::Alias" after installation or by typin
 
 -----------------------------------------------------------------------------
 Any questions or comments (Please send your feeback) should be addressed to -
-Tom Zeltwanger <perl@ename.com>                                             -
+Jonathan Kamens <jik@kamens.us>                                             -
 -----------------------------------------------------------------------------
 
 

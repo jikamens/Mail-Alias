@@ -2,13 +2,13 @@
 #
 # Version 1.12 		Date: 21 October 2000 
 #
-# Copyright (c) 2000 Tom Zeltwanger <perlename.com>. All rights reserved.
+# Copyright (c) 2022 Jonathan Kamens <jik@kamens.us>. All rights reserved.
 # This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
-
-#  The format(), expand(), read(), and write() methods are Copyright by
-#  Graham Barr, and modified by T. Zeltwanger
 #
+# Portions of earlier versions of this program were copyrighted by Tom
+# Zeltwanger and Graham Barr. The current copyright holder extends full
+# authorship rights to both of the previous authors.
 
 # PERLDOC documentation is found at the end of this file
 
@@ -767,19 +767,19 @@ Sets the working mode to use files (direct access). Use append() and delete()
 
 =back
 
-=head1 AUTHOR
+=head1 MAINTAINER
 
-Tom Zeltwanger <perl@ename.com> (CPAN author ID: ZELT)
+Jonathan Kamens <jik@kamens.us> (CPAN author ID: JIK)
 
 =head1 COPYRIGHT
 
-Copyright (c) 2000 Tom Zeltwanger. All rights reserved. This program is free
-software; you can redistribute it and/or modify it under the same terms
-as Perl itself.
+Copyright (c) 2022 Jonathan Kamens <jik@kamens.us>. All rights reserved. This
+program is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself.
 
-Versions up to 1.06, Copyright (c) 1995-1997 Graham Barr. All rights reserved.
-This program is free software; you can distribute it and/or modify it under
-the same terms as Perl itself.
+Portions of earlier versions of this program were copyrighted by Tom Zeltwanger
+and Graham Barr. The current copyright holder extends full authorship rights to
+both of the previous authors.
 
 =cut
 
