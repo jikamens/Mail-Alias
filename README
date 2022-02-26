@@ -53,6 +53,15 @@ convert between various alias file formats.
 
 
 HISTORY
+
+From Jonathan Kamens in 2022:
+
+I took over maintenance of this module in 2022 to fix a breaking
+incompatibility with the current version of Perl going back several years. To
+date no changes have been made to the module except that one fix.
+
+From Tom Zeltwanger in 2000:
+
 The capabilities provided in this module were developed as part of the
 development of an E-mail Forwarding service (desibed in more detail at www.ename.com).
 The service is  based on SENDMAIL and uses PERL for automatic processing of Alias
