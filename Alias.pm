@@ -532,12 +532,12 @@ sub write {
 #-----------------------------------------------------------#
 sub _include_file {
  my $file = shift;
- local *INC;
+ local *INCLUDE;
  my @ln;
  local $_;
- open(INC,$file) or carp "Cannot open file '$file'" and return "";
- @ln = grep(/^[^#]/,<INC>);
- close(INC);
+ open(INCLUDE,$file) or carp "Cannot open file '$file'" and return "";
+ @ln = grep(/^[^#]/,<INCLUDE>);
+ close(INCLUDE);
  chomp(@ln);
  join(",",@ln);
 }
