@@ -6,7 +6,7 @@
 # Change 1..1 below to 1..last_test_to_print .
 # (It may become useful if the test is moved to ./t subdirectory.)
 
-BEGIN { $| = 1; print "1..5\n"; }
+BEGIN { $| = 1; print "1..7\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Mail::Alias;
 $loaded = 1;
@@ -36,3 +36,9 @@ if ($alias_obj->exists("test_alias3"))
 if ($alias_obj->delete("test_alias3")) 
 	{print "ok 5\n"} else {print "not ok 5\n"};
 
+print "Verifying alias with continuation line at end of file\n";
+if ($alias_obj = Mail::Alias::Sendmail->new(test_alias_file))
+	{ print "ok 6\n"} else {print "not ok 6\n"};
+
+if ($alias_obj->exists("test_alias4"))
+        {print "ok 7\n"} else {print "not ok 7\n"};

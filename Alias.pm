@@ -556,13 +556,15 @@ sub read {
  my $group = undef;
  my $line = undef;
 
- while(<ALIAS>) {
-  chomp;
-  if(defined $line && /^\s/) {		
-   $line .= $_;
+ while(defined($_ = <ALIAS>) or defined($line)) {
+  if(defined $_) {
+   chomp;
+   if(defined $line && /^\s/) {		
+    $line .= $_;
+    next;
+   }
   }
-  else {
-   if(defined $line) {
+  if(defined $line) {
     if($line =~ s/^([^:]+)://) {	
      my @resp;
      $group = $1;
@@ -578,10 +580,10 @@ sub read {
      $me->{$group} = \@resp;
     }
     undef $line;
-   }
-   next if (/^#/ || /^\s*$/);		
-   $line = $_;
   }
+  last if (! defined $_);
+  next if (/^#/ || /^\s*$/);		
+  $line = $_;
  }
  close(ALIAS);
 }
