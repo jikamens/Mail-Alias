@@ -569,7 +569,7 @@ sub read {
      my @resp;
      $group = $1;
      $group =~ s/(\A\s+|\s+\Z)//g;	
-     $line =~ s/\"?:include:(\S+)\"?/_include_file($1)/eg;	
+     $line =~ s/\"?:include:\s*(\S+)\"?/_include_file($1)/eg;	
      $line =~ s/(\A[\s,]+|[\s,]+\Z)//g;
 
      while(length($line)) {

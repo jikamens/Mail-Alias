@@ -6,7 +6,7 @@
 # Change 1..1 below to 1..last_test_to_print .
 # (It may become useful if the test is moved to ./t subdirectory.)
 
-BEGIN { $| = 1; print "1..7\n"; }
+BEGIN { $| = 1; print "1..8\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use Mail::Alias;
 $loaded = 1;
@@ -42,3 +42,7 @@ if ($alias_obj = Mail::Alias::Sendmail->new(test_alias_file))
 
 if ($alias_obj->exists("test_alias4"))
         {print "ok 7\n"} else {print "not ok 7\n"};
+
+print("Verifying that space after :include: works\n");
+if (($alias_obj->expand("test_alias5"))[0] eq 'included@example.com')
+        {print "ok 8\n"} else {print "not ok 8\n"};
