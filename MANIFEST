@@ -9,3 +9,4 @@ testscripts/delete_test.pl
 testscripts/expand_test.pl
 testscripts/update_test.pl
 test_alias_file					a file with a few aliases for testing
+test_include_file
