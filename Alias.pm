@@ -1,6 +1,6 @@
 # Mail::Alias.pm
 #
-# Version 1.14 		Date: 26 February 2022
+# Version 1.15 		Date: 26 February 2022
 #
 # Copyright (c) 2022 Jonathan Kamens <jik@kamens.us>. All rights reserved.
 # This program is free software; you can redistribute it and/or
@@ -21,7 +21,7 @@ package Mail::Alias;             #
 use Carp;
 use vars qw($VERSION);
 
-$VERSION = 1.14;
+$VERSION = 1.15;
 sub Version { $VERSION }
 
 

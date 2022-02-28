@@ -1,5 +1,9 @@
 			Revision history for Perl module Mail::Alias.
 
+1.15 28 February 2022
+
+  Fix RT#141577: Add missing test file to package so that tests don't fail.
+
 1.14 27 February 2022
 
   Fix `make test` so it actually fails if there's a test failure.
